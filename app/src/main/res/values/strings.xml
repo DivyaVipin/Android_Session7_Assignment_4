@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Person_Database</string>
+    <string name="person_details">Person Details</string>
+    <string name="enter_details">Enter Details:</string>
+    <string name="first_name"> First name:</string>
+    <string name="hint_fname">First Name</string>
+    <string name="last_name">Last name:</string>
+    <string name="hint_lname">Last name</string>
+
+</resources>

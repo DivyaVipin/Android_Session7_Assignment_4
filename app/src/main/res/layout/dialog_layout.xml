@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="500dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="1dp"
+    card_view:cardCornerRadius="20dp"
+    card_view:cardElevation="15dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_details"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"/>
+<LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first_name"
+        android:id="@+id/txtFst"
+        android:textColor="@color/colorBlack"/>
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_fname"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/editTextFst"/>
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/last_name"
+                android:id="@+id/txtLast"
+                android:textColor="@color/colorBlack"/>
+            <EditText
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_lname"
+                android:id="@+id/editTextLastname"
+                android:textColor="@color/colorBlack"/>
+        </LinearLayout>
+
+
+
+
+        <Button android:id="@+id/saveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:text="Save"
+            android:textAlignment="center"
+            android:clickable="true"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="40dp"
+            android:textColor="@android:color/white"/>
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
